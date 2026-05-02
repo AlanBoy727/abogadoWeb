@@ -11,14 +11,14 @@ export default function Formulario() {
     mensaje: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e: any) => {
     setForm({
       ...form,
       [e.target.name]: e.target.value,
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
 
     const subject = encodeURIComponent(form.asunto);
