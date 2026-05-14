@@ -34,6 +34,7 @@ export default function Navbar() {
             alt="Bufete Ortega"
             width={60}
             height={60}
+            className="w-32 h-auto"
           />
           <span className="mx-2 text-2xl md:text-3xl text-slate-300 tracking-wide font-bold">Bufete de abogados ORTEGA</span>
         </Link>
